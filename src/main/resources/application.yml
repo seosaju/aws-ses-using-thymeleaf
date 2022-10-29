@@ -1,0 +1,16 @@
+spring:
+  thymeleaf:
+    cache: false
+    check-template-location: true
+    prefix: classpath:/templates/
+    suffix: .html
+
+aws:
+  ses:
+    from: ??? ???
+    from-name: ??? ??
+    smtp:
+      host: email-smtp.ap-northeast-2.amazonaws.com
+      port: 587
+      username: AWS SES SMTP USERNAME
+      password: AWS SES SMTP PASSWORD
