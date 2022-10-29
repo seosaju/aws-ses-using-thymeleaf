@@ -13,7 +13,7 @@ public @interface EmailCollection {
 
     String message() default "{javax.validation.constraints.Email.message}";
 
-    Class<?>[] groups() default { };
+    Class<?>[] groups() default {};
 
-    Class<? extends Payload>[] payload() default { };
+    Class<? extends Payload>[] payload() default {};
 }
